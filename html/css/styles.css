@@ -1,0 +1,24 @@
+.section *{
+    /* Eliminar predeterminados */
+    margin: 100px;
+    padding: 200px;
+}
+
+.title {
+    /* Estilos de título h1 */
+    text-align: center;
+    padding: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pdfview {
+    /* Centrado */
+    margin: auto;
+    display: block;
+    /* Tamaño */
+    width: 500px;
+    height: 300px;
+    /* Mejorar aspecto */
+    border-radius: 40px;
+    box-shadow: 0 50px 100px 0 rgba(0, 0, 0, 0.2), 0 50px 100px 0 rgba(0, 0, 0, 0.19);
+}
