@@ -33,7 +33,7 @@
     <script src="library/three.min.js"></script>
     <script src="library/STLLoader.js"></script>
     <script src="library/OrbitControls.js"></script>
-    <script src="library/function_loader.js"></script>
+    <script src="library/ejemplo2.js"></script>
     <title>Impa TRQ 7mo</title>
     <style>
       .jumbotron {
@@ -127,16 +127,13 @@
       </div>
     </section>
     <!-- blog-single Section Start -->
-  </section>
-  <!-- blog-single Section Start -->
-  <div class="container">
-    <style>
-            .container {
-  display: flex; /* Utiliza flexbox para organizar los divs */
-  justify-content: space-between; /* Alinea los divs con espacio entre ellos */
-}
-    </style>
-
+    <div class="container">
+      <style>
+              .container {
+    display: flex; /* Utiliza flexbox para organizar los divs */
+    justify-content: space-between; /* Alinea los divs con espacio entre ellos */
+  }
+      </style>
     <div
       id="model-container"
       style="
@@ -151,7 +148,7 @@
       <script type="text/javascript">
         var subjectObject = {
           "2020": {
-            "Ojo de Van Gogh": ["Case_placa_parte_1", "Case_placa_parte_2", "Ojo_de_Van_Gogh"],
+            "Ojo de Van Gogh": ["Case_placa_parte_1", "Case_placa_parte_2.stl", "Ojo_de_Van_Gogh"],
           },
           "2021": {
             "AFRS": ["Caja_Raspberry", "MQ3", "Sensor ultrasonico parte inferior", "sensor ultrasonico parte superior"],
@@ -211,21 +208,12 @@
         
       };
       </script>
-      <div
-        id="model-container"
-        style="
-          width: 650px;
-          height: 650px;
-          left: 1050px;
-          bottom: 20px;
-          position: relative;
-          border: 2px solid #ccc;
-        "
-      ></div>
+
     </div>
 
     <style>
       /* Estilos para los menús desplegables */
+
       .dropdown-container {
         display: inline-block; /* Cambiado de flex a inline-block */
         margin-right: 20px; /* Añade espacio entre las listas */
@@ -256,7 +244,7 @@
         border-color: #719ece;
       }
     </style>
-    <div style="position: absolute" class="dropdown-container">
+    <div style="position: relative" class="dropdown-container">
       <label for="subject">Año:</label>
       <select name="subject" id="subject">
         <option value="" selected="selected">Selecciona proyecto</option>
@@ -264,7 +252,7 @@
       <br /><br />
     </div>
     <div
-      style="position: relative;"
+      style="position: relative; "
       class="dropdown-container"
     >
       <label for="topic">Grupo:</label>
@@ -273,7 +261,7 @@
       </select>
       <br /><br />
     </div>
-    <div style="position: relative;" class="dropdown-container">
+    <div style="position: relative; " class="dropdown-container">
     <label for="topic">Archivo:</label>
     <select name="chapter" id="chapter">
       <option value="" selected="selected"></option>
@@ -281,7 +269,8 @@
     <br /><br />
   </div>
 </div>
-    <!-- Blog_single Section End -->
+  <!-- Blog_single Section End -->
+ 
 
     <section class="section-7">
       <!-- Footer -->
