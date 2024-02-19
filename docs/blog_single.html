@@ -127,15 +127,25 @@
       </div>
     </section>
     <!-- blog-single Section Start -->
+  </section>
+  <!-- blog-single Section Start -->
+  <div class="container">
+    <style>
+            .container {
+  display: flex; /* Utiliza flexbox para organizar los divs */
+  justify-content: space-between; /* Alinea los divs con espacio entre ellos */
+}
+    </style>
+
     <div
       id="model-container"
       style="
-        width: 650px;
-        height: 650px;
-        left: 1050px;
-        bottom: 20px;
+        width: 800px;
+        height: 500px;
         position: relative;
         border: 2px solid #ccc;
+        right: 20px;
+        bottom: 20px;
       "
     >
       <script type="text/javascript">
@@ -246,7 +256,7 @@
         border-color: #719ece;
       }
     </style>
-    <div style="top: 600px; position: absolute" class="dropdown-container">
+    <div style="position: absolute" class="dropdown-container">
       <label for="subject">Año:</label>
       <select name="subject" id="subject">
         <option value="" selected="selected">Selecciona proyecto</option>
@@ -254,7 +264,7 @@
       <br /><br />
     </div>
     <div
-      style="position: absolute; top: 600px; left: 300px"
+      style="position: relative;"
       class="dropdown-container"
     >
       <label for="topic">Grupo:</label>
@@ -263,13 +273,14 @@
       </select>
       <br /><br />
     </div>
-    <div style="top: 600px; position: absolute; left: 600px;" class="dropdown-container">
+    <div style="position: relative;" class="dropdown-container">
     <label for="topic">Archivo:</label>
     <select name="chapter" id="chapter">
       <option value="" selected="selected"></option>
     </select>
     <br /><br />
   </div>
+</div>
     <!-- Blog_single Section End -->
 
     <section class="section-7">
