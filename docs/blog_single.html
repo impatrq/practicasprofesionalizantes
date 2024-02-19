@@ -209,10 +209,11 @@
     STLViewer("archivos_stl/"+this.value + ".stl", "model-container");
     console.log("Archivo STL cargado exitosamente");
 } catch (error) {
+  var modelContainer = document.getElementById("model-container");
+            modelContainer.innerHTML = ""; // Eliminar el contenido del contenedor del modelo
       STLViewer("archivos_stl/"+this.value + ".STL", "model-container");
 }
-            STLViewer("archivos_stl/"+this.value + ".STL", "model-container"); // Cargar el primer modelo STL al cargar la página
-            STLViewer("archivos_stl/"+this.value + ".stl", "model-container"); // Cargar el primer modelo STL al cargar la página
+
           
           };
         
