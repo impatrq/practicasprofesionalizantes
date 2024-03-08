@@ -926,19 +926,13 @@ header .fa {
     margin-bottom: 23px;
 }
 
-#about-us .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-#about-us .container img {
-        flex: 0 0 auto; /* Establece el tamaño de las imágenes para que no se expandan */
-        margin-right: 10px; /* Espacio entre la imagen y el texto */
-    }
-
-  #about-us .container p {
-        flex: 1 1 auto; /* Permite que el texto ocupe todo el espacio disponible */
-    }
+#about-us .image {
+    float: left;
+    width: 478px;
+    height: 394px;
+    shape-margin: 20px;
+    margin-right: 50px;
+    margin-bottom: 52px;
 }
 
 #about-us .thumbnail {
